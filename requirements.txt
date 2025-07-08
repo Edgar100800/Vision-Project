@@ -1,0 +1,31 @@
+# Core dependencies - install numpy first
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ReID library - use latest available version from PyPI
+torchreid>=0.2.5
+gdown>=5.0.0
+tensorboard>=2.19.0
+
+# Computer Vision
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+
+# Indexing and Search
+hnswlib>=0.7.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Data Processing
+pandas>=2.0.0
+pillow>=10.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0 

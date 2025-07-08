@@ -1,0 +1,90 @@
+{
+  "paths": {
+    "project_root": "/Users/edgarchambilla/Desktop/UTEC_CODE/VISION/Proye4",
+    "data_dir": "data",
+    "raw_data_dir": "data/raw",
+    "processed_data_dir": "data/processed",
+    "models_dir": "models",
+    "output_dir": "output",
+    "logs_dir": "logs",
+    "yolo_models_dir": "models/yolo",
+    "reid_models_dir": "models/reid",
+    "custom_models_dir": "models/custom",
+    "default_yolo_model": "yolov8n.pt",
+    "default_reid_model": "osnet_x1_0",
+    "crops_subdir": "crops",
+    "videos_subdir": "videos",
+    "data_subdir": "data",
+    "logs_subdir": "logs"
+  },
+  "detection": {
+    "model_path": "yolov8n.pt",
+    "model_size": "nano",
+    "confidence_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "target_classes": [
+      0
+    ],
+    "class_names": [
+      "person"
+    ],
+    "input_size": [
+      640,
+      640
+    ],
+    "normalize": true,
+    "augment": false,
+    "half_precision": false,
+    "device": "auto",
+    "verbose": false,
+    "batch_size": 1,
+    "max_detections": 100,
+    "agnostic_nms": false,
+    "multi_label": false
+  },
+  "tracking": {
+    "max_disappeared": 30,
+    "max_distance": 100.0,
+    "min_track_length": 3,
+    "coordinate_discretization": 10,
+    "enable_compression": true,
+    "compression_window": 100,
+    "retrain_interval": 500,
+    "distance_metric": "euclidean",
+    "position_weight": 0.7,
+    "size_weight": 0.3,
+    "enable_prediction": true,
+    "prediction_frames": 3,
+    "max_prediction_distance": 50,
+    "confidence_decay": 0.95,
+    "min_confidence": 0.3,
+    "quality_threshold": 0.5
+  },
+  "reid": {
+    "model_name": "osnet_x1_0",
+    "model_path": null,
+    "feature_dim": 512,
+    "device": "auto",
+    "image_size": [
+      256,
+      128
+    ],
+    "normalize_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalize_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "normalize_features": true,
+    "feature_enhancement": false,
+    "pca_reduction": false,
+    "pca_components": 512,
+    "batch_size": 32,
+    "max_batch_size": 64,
+    "auto_batch_size": true,
+    "default_metric": "cosine",
+    "similarity_threshold": 
