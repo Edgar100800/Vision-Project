@@ -10,7 +10,7 @@ from typing import Dict, List, Tuple
 @dataclass
 class DetectionConfig:
     """Configuration for person detection."""
-    model_name: str = "yolov8n.pt"
+    model_name: str = "yolo11m.pt"
     confidence_threshold: float = 0.5
     iou_threshold: float = 0.45
     device: str = "auto"  # auto, cpu, cuda

@@ -14,6 +14,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from utils.config import TrackingConfig
 from utils.logger import setup_logger
+from reid.reId import ReIDModel
 
 
 class DeepSORTTracker:
@@ -21,7 +22,7 @@ class DeepSORTTracker:
     Person tracker using Deep SORT algorithm.
     """
 
-    def __init__(self, config: TrackingConfig):
+    def __init__(self, config: TrackingConfig, reid_model: Optional[ReIDModel] = None):
         """
         Initialize the Deep SORT tracker.
 
@@ -30,6 +31,13 @@ class DeepSORTTracker:
         """
         self.config = config
         self.logger = setup_logger("DeepSORTTracker")
+
+        self.reid_model = reid_model
+
+        if self.reid_model:
+            self.logger.info("Re-Id model activado")
+            self.next_person_id = 1
+            self.id_map = {}
 
         # Initialize Deep SORT
         try:
@@ -92,28 +100,47 @@ class DeepSORTTracker:
                 if not track.is_confirmed():
                     continue
 
-                track_id = track.track_id
+                deepsort_id = track.track_id
                 ltrb = track.to_ltrb()
                 x1, y1, x2, y2 = int(ltrb[0]), int(
                     ltrb[1]), int(ltrb[2]), int(ltrb[3])
-
+                
+                final_id = deepsort_id
+                if self.reid_model:
+                    embedding  = self.reid_model._extract_features(frame, (x1,y1,x2,y2))
+                    if embedding is not None:
+                        matched_id, similarity = self.reid_model.find_match(embedding)
+                        if matched_id is not None:
+                            final_id = matched_id
+                            self.id_map[deepsort_id] = final_id
+                        elif deepsort_id not in self.id_map:
+                            final_id = f"P-{self.next_person_id}"
+                            self.next_person_id += 1
+                            self.id_map[deepsort_id] =  final_id
+                        else:
+                            final_id = self.id_map[deepsort_id]
+                        
+                        self.reid_model.update_gallery(final_id, embedding)
+                track_id_for_history = deepsort_id
+                
                 # Store track history for analytics
                 center_x = (x1 + x2) / 2
                 center_y = (y1 + y2) / 2
 
-                if track_id not in self.track_history:
-                    self.track_history[track_id] = []
+                if track_id_for_history not in self.track_history:
+                    self.track_history[track_id_for_history] = []
 
-                self.track_history[track_id].append(
+                self.track_history[track_id_for_history].append(
                     (center_x, center_y, current_time))
 
                 # Keep only recent history (last 30 seconds)
-                self.track_history[track_id] = [
-                    (x, y, t) for x, y, t in self.track_history[track_id]
+                self.track_history[track_id_for_history] = [
+                    (x, y, t) for x, y, t in self.track_history[track_id_for_history]
                     if current_time - t < 30.0
                 ]
 
-                track_results.append((x1, y1, x2, y2, track_id))
+                track_results.append((x1, y1, x2, y2, final_id))
+
 
             return track_results
 

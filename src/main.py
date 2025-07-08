@@ -17,6 +17,7 @@ from utils.config import get_config
 from utils.logger import setup_logger
 from detectors.yolo_detector import YOLODetector
 from trackers.deep_sort_tracker import DeepSORTTracker
+from reid.reId import ReIDModel
 
 
 def main():
@@ -62,8 +63,12 @@ def main():
         logger.info("Initializing YOLO detector...")
         detector = YOLODetector(config.detection)
 
+        # --- Inicializar Re-ID Model ---
+        logger.info("Initializing Re-ID model...")
+        reid_model = ReIDModel(threshold=getattr(config.reid, 'threshold', 0.75)) # Usa umbral de config si existe
+
         logger.info("Initializing Deep SORT tracker...")
-        tracker = DeepSORTTracker(config.tracking)
+        tracker = DeepSORTTracker(config.tracking, reid_model=reid_model)
 
         # Open video
         logger.info(f"Opening video: {config.video.input_path}")

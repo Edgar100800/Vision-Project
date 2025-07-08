@@ -174,5 +174,3 @@ El proyecto sigue las mejores prácticas de desarrollo:
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
 
 ---
-
-**Desarrollado con ❤️ para sistemas de monitoreo inteligente**
