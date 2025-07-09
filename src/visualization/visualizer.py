@@ -90,9 +90,11 @@ class Visualizer:
         if self.show_bbox:
             self._draw_bounding_box(frame, latest_detection, color)
         
-        # Draw person ID
+        # Draw person ID with status
         if self.show_id:
-            self._draw_person_id(frame, latest_detection, track.person_id, color)
+            # Find the person with this track_id to get status
+            status = "TRACKING"  # Default status
+            self._draw_person_id(frame, latest_detection, track.person_id, color, status=status)
         
         # Draw pose keypoints
         if self.show_pose and latest_detection.pose_keypoints is not None:
@@ -179,21 +181,39 @@ class Visualizer:
             cv2.line(frame, (x2, y1 + i), (x2, min(y1 + i + dash_length, y2)), color, self.thickness)
     
     def _draw_person_id(self, frame: np.ndarray, detection, person_id: int, 
-                       color: List[int], prefix: str = ""):
-        """Draw person ID label."""
+                       color: List[int], prefix: str = "", status: str = ""):
+        """Draw person ID label with status."""
         x1, y1, x2, y2 = [int(coord) for coord in detection.bbox]
         
-        # Create label text
-        label = f"{prefix} ID:{person_id}" if prefix else f"ID:{person_id}"
+        # Create label text with status
+        if status == "TRACKING_LOCKED":
+            label = f"ID:{person_id} (LOCKED)"
+        elif status:
+            label = f"ID:{person_id} ({status})"
+        elif prefix:
+            label = f"{prefix} ID:{person_id}"
+        else:
+            label = f"ID:{person_id}"
         
         # Get text size
         (text_width, text_height), baseline = cv2.getTextSize(
             label, cv2.FONT_HERSHEY_SIMPLEX, self.font_scale, self.thickness
         )
         
+        # Choose background color based on status
+        bg_color = color
+        if status == "NEW":
+            bg_color = [0, 255, 0]  # Green for new
+        elif status == "TRACKING":
+            bg_color = [255, 165, 0]  # Orange for tracking
+        elif status == "TRACKING_LOCKED":
+            bg_color = [0, 0, 255]  # Blue for locked
+        elif status == "RE_IDENTIFIED":
+            bg_color = [255, 0, 255]  # Magenta for re-identified
+        
         # Draw background rectangle
         cv2.rectangle(frame, (x1, y1 - text_height - 10), 
-                     (x1 + text_width + 10, y1), color, -1)
+                     (x1 + text_width + 10, y1), bg_color, -1)
         
         # Draw text
         cv2.putText(frame, label, (x1 + 5, y1 - 5), 

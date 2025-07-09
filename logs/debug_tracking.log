@@ -1,0 +1,707 @@
+2025-07-09 00:24:33,767 - root - INFO - PersonDetector initialized with device: cuda
+2025-07-09 00:24:37,045 - root - INFO - EmbeddingExtractor initialized with resnet50
+2025-07-09 00:24:37,047 - root - INFO - ReIDMatcher initialized with threshold: 0.7
+2025-07-09 00:24:37,156 - root - INFO - Loaded person history: 7 persons
+2025-07-09 00:24:37,157 - root - INFO - PersistentTracker initialized
+2025-07-09 00:24:42,624 - root - DEBUG - Detected 1 persons in frame 0
+2025-07-09 00:24:43,028 - root - INFO - Started new tracking session at 0.0
+2025-07-09 00:24:43,044 - root - INFO - Person matching: HISTORY | Score: 0.946 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:43,317 - root - DEBUG - Detected 1 persons in frame 1
+2025-07-09 00:24:43,447 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:43,702 - root - DEBUG - Detected 1 persons in frame 2
+2025-07-09 00:24:43,870 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:44,144 - root - DEBUG - Detected 1 persons in frame 3
+2025-07-09 00:24:44,308 - root - INFO - Person matching: HISTORY | Score: 0.948 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:44,640 - root - DEBUG - Detected 1 persons in frame 4
+2025-07-09 00:24:44,787 - root - INFO - Person matching: HISTORY | Score: 0.949 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:45,145 - root - DEBUG - Detected 1 persons in frame 5
+2025-07-09 00:24:45,288 - root - INFO - Person matching: HISTORY | Score: 0.949 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:45,579 - root - DEBUG - Detected 1 persons in frame 6
+2025-07-09 00:24:45,715 - root - INFO - Person matching: HISTORY | Score: 0.949 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:46,019 - root - DEBUG - Detected 1 persons in frame 7
+2025-07-09 00:24:46,185 - root - INFO - Person matching: HISTORY | Score: 0.949 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:46,444 - root - DEBUG - Detected 1 persons in frame 8
+2025-07-09 00:24:46,578 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:46,871 - root - DEBUG - Detected 1 persons in frame 9
+2025-07-09 00:24:47,057 - root - INFO - Person matching: HISTORY | Score: 0.952 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:47,345 - root - DEBUG - Detected 1 persons in frame 10
+2025-07-09 00:24:47,512 - root - INFO - Person matching: HISTORY | Score: 0.953 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:47,856 - root - DEBUG - Detected 1 persons in frame 11
+2025-07-09 00:24:48,051 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:48,352 - root - DEBUG - Detected 1 persons in frame 12
+2025-07-09 00:24:48,508 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:48,818 - root - DEBUG - Detected 1 persons in frame 13
+2025-07-09 00:24:49,050 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:49,394 - root - DEBUG - Detected 1 persons in frame 14
+2025-07-09 00:24:49,542 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:49,855 - root - DEBUG - Detected 1 persons in frame 15
+2025-07-09 00:24:49,980 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:50,214 - root - DEBUG - Detected 1 persons in frame 16
+2025-07-09 00:24:50,335 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:50,600 - root - DEBUG - Detected 1 persons in frame 17
+2025-07-09 00:24:50,736 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:51,052 - root - DEBUG - Detected 1 persons in frame 18
+2025-07-09 00:24:51,236 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:51,480 - root - DEBUG - Detected 1 persons in frame 19
+2025-07-09 00:24:51,637 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:51,910 - root - DEBUG - Detected 1 persons in frame 20
+2025-07-09 00:24:52,043 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:52,307 - root - DEBUG - Detected 1 persons in frame 21
+2025-07-09 00:24:52,455 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:52,747 - root - DEBUG - Detected 1 persons in frame 22
+2025-07-09 00:24:52,940 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:53,476 - root - DEBUG - Detected 1 persons in frame 23
+2025-07-09 00:24:53,680 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:54,005 - root - DEBUG - Detected 1 persons in frame 24
+2025-07-09 00:24:54,162 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:54,403 - root - DEBUG - Detected 1 persons in frame 25
+2025-07-09 00:24:54,558 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:54,777 - root - DEBUG - Detected 1 persons in frame 26
+2025-07-09 00:24:54,958 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:55,229 - root - DEBUG - Detected 1 persons in frame 27
+2025-07-09 00:24:55,400 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:55,695 - root - DEBUG - Detected 1 persons in frame 28
+2025-07-09 00:24:55,817 - root - INFO - Person matching: HISTORY | Score: 0.964 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:56,161 - root - DEBUG - Detected 1 persons in frame 29
+2025-07-09 00:24:56,298 - root - INFO - Person matching: HISTORY | Score: 0.964 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:56,589 - root - DEBUG - Detected 1 persons in frame 30
+2025-07-09 00:24:56,713 - root - INFO - Person matching: HISTORY | Score: 0.964 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:56,990 - root - DEBUG - Detected 1 persons in frame 31
+2025-07-09 00:24:57,148 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:57,451 - root - DEBUG - Detected 1 persons in frame 32
+2025-07-09 00:24:57,625 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:57,900 - root - DEBUG - Detected 1 persons in frame 33
+2025-07-09 00:24:58,066 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:58,342 - root - DEBUG - Detected 1 persons in frame 34
+2025-07-09 00:24:58,548 - root - INFO - Person matching: HISTORY | Score: 0.959 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:58,901 - root - DEBUG - Detected 1 persons in frame 35
+2025-07-09 00:24:59,126 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:59,418 - root - DEBUG - Detected 1 persons in frame 36
+2025-07-09 00:24:59,610 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:24:59,830 - root - DEBUG - Detected 1 persons in frame 37
+2025-07-09 00:24:59,990 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:00,244 - root - DEBUG - Detected 1 persons in frame 38
+2025-07-09 00:25:00,392 - root - INFO - Person matching: HISTORY | Score: 0.951 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:00,664 - root - DEBUG - Detected 1 persons in frame 39
+2025-07-09 00:25:00,785 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:01,115 - root - DEBUG - Detected 1 persons in frame 40
+2025-07-09 00:25:01,268 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:01,550 - root - DEBUG - Detected 1 persons in frame 41
+2025-07-09 00:25:01,680 - root - INFO - Person matching: HISTORY | Score: 0.948 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:01,933 - root - DEBUG - Detected 1 persons in frame 42
+2025-07-09 00:25:02,080 - root - INFO - Person matching: HISTORY | Score: 0.948 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:02,334 - root - DEBUG - Detected 1 persons in frame 43
+2025-07-09 00:25:02,503 - root - INFO - Person matching: HISTORY | Score: 0.946 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:02,782 - root - DEBUG - Detected 1 persons in frame 44
+2025-07-09 00:25:02,986 - root - INFO - Person matching: HISTORY | Score: 0.946 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:03,288 - root - DEBUG - Detected 1 persons in frame 45
+2025-07-09 00:25:03,470 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:03,777 - root - DEBUG - Detected 1 persons in frame 46
+2025-07-09 00:25:03,933 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:25:04,204 - root - DEBUG - Detected 1 persons in frame 47
+2025-07-09 00:25:04,352 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:04,653 - root - DEBUG - Detected 1 persons in frame 48
+2025-07-09 00:25:04,793 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:05,109 - root - DEBUG - Detected 1 persons in frame 49
+2025-07-09 00:25:05,241 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:05,507 - root - DEBUG - Detected 1 persons in frame 50
+2025-07-09 00:25:05,653 - root - INFO - Person matching: HISTORY | Score: 0.942 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:05,935 - root - DEBUG - Detected 1 persons in frame 51
+2025-07-09 00:25:06,128 - root - INFO - Person matching: HISTORY | Score: 0.944 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:06,383 - root - DEBUG - Detected 1 persons in frame 52
+2025-07-09 00:25:06,513 - root - INFO - Person matching: HISTORY | Score: 0.946 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:06,783 - root - DEBUG - Detected 1 persons in frame 53
+2025-07-09 00:25:06,953 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:07,277 - root - DEBUG - Detected 1 persons in frame 54
+2025-07-09 00:25:07,443 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:07,752 - root - DEBUG - Detected 1 persons in frame 55
+2025-07-09 00:25:07,907 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:08,212 - root - DEBUG - Detected 1 persons in frame 56
+2025-07-09 00:25:08,380 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:08,763 - root - DEBUG - Detected 1 persons in frame 57
+2025-07-09 00:25:09,005 - root - INFO - Person matching: HISTORY | Score: 0.944 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:09,429 - root - DEBUG - Detected 1 persons in frame 58
+2025-07-09 00:25:09,655 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:10,162 - root - DEBUG - Detected 1 persons in frame 59
+2025-07-09 00:25:10,356 - root - INFO - Person matching: HISTORY | Score: 0.936 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:10,799 - root - DEBUG - Detected 1 persons in frame 60
+2025-07-09 00:25:11,080 - root - INFO - Person matching: HISTORY | Score: 0.936 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:11,477 - root - DEBUG - Detected 1 persons in frame 61
+2025-07-09 00:25:11,664 - root - INFO - Person matching: HISTORY | Score: 0.931 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:12,030 - root - DEBUG - Detected 1 persons in frame 62
+2025-07-09 00:25:12,194 - root - INFO - Person matching: HISTORY | Score: 0.929 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:12,564 - root - DEBUG - Detected 1 persons in frame 63
+2025-07-09 00:25:12,788 - root - INFO - Person matching: HISTORY | Score: 0.925 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:13,217 - root - DEBUG - Detected 1 persons in frame 64
+2025-07-09 00:25:13,393 - root - INFO - Person matching: HISTORY | Score: 0.923 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:13,820 - root - DEBUG - Detected 1 persons in frame 65
+2025-07-09 00:25:13,987 - root - INFO - Person matching: HISTORY | Score: 0.914 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:14,365 - root - DEBUG - Detected 1 persons in frame 66
+2025-07-09 00:25:14,582 - root - INFO - Person matching: HISTORY | Score: 0.909 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:14,920 - root - DEBUG - Detected 1 persons in frame 67
+2025-07-09 00:25:15,101 - root - INFO - Person matching: HISTORY | Score: 0.897 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:15,415 - root - DEBUG - Detected 1 persons in frame 68
+2025-07-09 00:25:15,597 - root - INFO - Person matching: HISTORY | Score: 0.892 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:15,890 - root - DEBUG - Detected 1 persons in frame 69
+2025-07-09 00:25:16,044 - root - INFO - Person matching: HISTORY | Score: 0.887 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:16,374 - root - DEBUG - Detected 1 persons in frame 70
+2025-07-09 00:25:16,532 - root - INFO - Person matching: HISTORY | Score: 0.876 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:25:16,834 - root - DEBUG - Detected 1 persons in frame 71
+2025-07-09 00:25:17,017 - root - INFO - Person matching: HISTORY | Score: 0.852 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:17,390 - root - DEBUG - Detected 1 persons in frame 72
+2025-07-09 00:25:17,622 - root - INFO - Person matching: HISTORY | Score: 0.858 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:17,968 - root - DEBUG - Detected 2 persons in frame 73
+2025-07-09 00:25:18,283 - root - INFO - Person matching: HISTORY | Score: 0.866 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:18,295 - root - INFO - Person matching: HISTORY | Score: 0.902 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:18,627 - root - DEBUG - Detected 2 persons in frame 74
+2025-07-09 00:25:18,950 - root - INFO - Person matching: HISTORY | Score: 0.876 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:18,957 - root - INFO - Person matching: HISTORY | Score: 0.906 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:19,325 - root - DEBUG - Detected 2 persons in frame 75
+2025-07-09 00:25:19,617 - root - INFO - Person matching: HISTORY | Score: 0.889 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:19,630 - root - INFO - Person matching: HISTORY | Score: 0.908 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:19,911 - root - DEBUG - Detected 2 persons in frame 76
+2025-07-09 00:25:20,210 - root - INFO - Person matching: HISTORY | Score: 0.891 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:20,225 - root - INFO - Person matching: HISTORY | Score: 0.916 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:20,562 - root - DEBUG - Detected 2 persons in frame 77
+2025-07-09 00:25:20,860 - root - INFO - Person matching: HISTORY | Score: 0.885 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:20,877 - root - INFO - Person matching: HISTORY | Score: 0.915 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:21,268 - root - DEBUG - Detected 2 persons in frame 78
+2025-07-09 00:25:21,558 - root - INFO - Person matching: HISTORY | Score: 0.875 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:21,574 - root - INFO - Person matching: HISTORY | Score: 0.932 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:22,189 - root - DEBUG - Detected 2 persons in frame 79
+2025-07-09 00:25:22,712 - root - INFO - Person matching: HISTORY | Score: 0.886 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:22,745 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:23,098 - root - DEBUG - Detected 2 persons in frame 80
+2025-07-09 00:25:23,409 - root - INFO - Person matching: HISTORY | Score: 0.894 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:23,417 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:23,817 - root - DEBUG - Detected 2 persons in frame 81
+2025-07-09 00:25:24,170 - root - INFO - Person matching: HISTORY | Score: 0.900 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:24,185 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:24,598 - root - DEBUG - Detected 2 persons in frame 82
+2025-07-09 00:25:24,967 - root - INFO - Person matching: HISTORY | Score: 0.890 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:24,975 - root - INFO - Person matching: HISTORY | Score: 0.946 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:25,362 - root - DEBUG - Detected 2 persons in frame 83
+2025-07-09 00:25:25,691 - root - INFO - Person matching: HISTORY | Score: 0.886 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:25,699 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:26,116 - root - DEBUG - Detected 2 persons in frame 84
+2025-07-09 00:25:26,494 - root - INFO - Person matching: HISTORY | Score: 0.868 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:26,510 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:26,801 - root - DEBUG - Detected 2 persons in frame 85
+2025-07-09 00:25:27,126 - root - INFO - Person matching: HISTORY | Score: 0.952 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:27,138 - root - INFO - Person matching: HISTORY | Score: 0.853 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:25:27,390 - root - DEBUG - Detected 2 persons in frame 86
+2025-07-09 00:25:27,735 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:25:27,751 - root - INFO - Person matching: HISTORY | Score: 0.854 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:27:57,901 - root - INFO - PersonDetector initialized with device: cuda
+2025-07-09 00:28:05,116 - root - INFO - EmbeddingExtractor initialized with resnet50
+2025-07-09 00:28:05,143 - root - INFO - ReIDMatcher initialized with threshold: 0.7
+2025-07-09 00:28:05,218 - root - INFO - Loaded person history: 7 persons
+2025-07-09 00:28:05,370 - root - INFO - PersistentTracker initialized
+2025-07-09 00:28:13,851 - root - DEBUG - Detected 1 persons in frame 0
+2025-07-09 00:28:14,432 - root - INFO - Started new tracking session at 0.0
+2025-07-09 00:28:14,442 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:14,741 - root - DEBUG - Detected 1 persons in frame 1
+2025-07-09 00:28:14,897 - root - INFO - Person matching: HISTORY | Score: 0.942 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:15,459 - root - DEBUG - Detected 1 persons in frame 2
+2025-07-09 00:28:15,753 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:16,350 - root - DEBUG - Detected 1 persons in frame 3
+2025-07-09 00:28:16,668 - root - INFO - Person matching: HISTORY | Score: 0.944 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:17,356 - root - DEBUG - Detected 1 persons in frame 4
+2025-07-09 00:28:17,770 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:18,640 - root - DEBUG - Detected 1 persons in frame 5
+2025-07-09 00:28:19,107 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:19,625 - root - DEBUG - Detected 1 persons in frame 6
+2025-07-09 00:28:20,050 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:20,519 - root - DEBUG - Detected 1 persons in frame 7
+2025-07-09 00:28:20,788 - root - INFO - Person matching: HISTORY | Score: 0.946 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:21,415 - root - DEBUG - Detected 1 persons in frame 8
+2025-07-09 00:28:21,774 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:22,276 - root - DEBUG - Detected 1 persons in frame 9
+2025-07-09 00:28:22,671 - root - INFO - Person matching: HISTORY | Score: 0.948 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:23,187 - root - DEBUG - Detected 1 persons in frame 10
+2025-07-09 00:28:23,600 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:24,097 - root - DEBUG - Detected 1 persons in frame 11
+2025-07-09 00:28:24,585 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:25,064 - root - DEBUG - Detected 1 persons in frame 12
+2025-07-09 00:28:25,629 - root - INFO - Person matching: HISTORY | Score: 0.952 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:26,089 - root - DEBUG - Detected 1 persons in frame 13
+2025-07-09 00:28:26,642 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:27,112 - root - DEBUG - Detected 1 persons in frame 14
+2025-07-09 00:28:27,591 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:28,059 - root - DEBUG - Detected 1 persons in frame 15
+2025-07-09 00:28:29,339 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:29,775 - root - DEBUG - Detected 1 persons in frame 16
+2025-07-09 00:28:30,670 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:31,118 - root - DEBUG - Detected 1 persons in frame 17
+2025-07-09 00:28:31,318 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:31,711 - root - DEBUG - Detected 1 persons in frame 18
+2025-07-09 00:28:32,125 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:32,637 - root - DEBUG - Detected 1 persons in frame 19
+2025-07-09 00:28:33,005 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:33,674 - root - DEBUG - Detected 1 persons in frame 20
+2025-07-09 00:28:34,024 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:34,613 - root - DEBUG - Detected 1 persons in frame 21
+2025-07-09 00:28:34,867 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:35,464 - root - DEBUG - Detected 1 persons in frame 22
+2025-07-09 00:28:35,734 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:36,294 - root - DEBUG - Detected 1 persons in frame 23
+2025-07-09 00:28:36,697 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:37,262 - root - DEBUG - Detected 1 persons in frame 24
+2025-07-09 00:28:37,539 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:38,140 - root - DEBUG - Detected 1 persons in frame 25
+2025-07-09 00:28:38,480 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:39,015 - root - DEBUG - Detected 1 persons in frame 26
+2025-07-09 00:28:39,262 - root - INFO - Person matching: HISTORY | Score: 0.959 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:39,840 - root - DEBUG - Detected 1 persons in frame 27
+2025-07-09 00:28:40,080 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:40,704 - root - DEBUG - Detected 1 persons in frame 28
+2025-07-09 00:28:41,033 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:41,622 - root - DEBUG - Detected 1 persons in frame 29
+2025-07-09 00:28:41,990 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:42,762 - root - DEBUG - Detected 1 persons in frame 30
+2025-07-09 00:28:43,120 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:43,649 - root - DEBUG - Detected 1 persons in frame 31
+2025-07-09 00:28:43,897 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:44,382 - root - DEBUG - Detected 1 persons in frame 32
+2025-07-09 00:28:44,582 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:45,077 - root - DEBUG - Detected 1 persons in frame 33
+2025-07-09 00:28:45,314 - root - INFO - Person matching: HISTORY | Score: 0.959 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:46,097 - root - DEBUG - Detected 1 persons in frame 34
+2025-07-09 00:28:46,498 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:47,348 - root - DEBUG - Detected 1 persons in frame 35
+2025-07-09 00:28:47,895 - root - INFO - Person matching: HISTORY | Score: 0.956 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:48,698 - root - DEBUG - Detected 1 persons in frame 36
+2025-07-09 00:28:49,618 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:50,359 - root - DEBUG - Detected 1 persons in frame 37
+2025-07-09 00:28:50,704 - root - INFO - Person matching: HISTORY | Score: 0.952 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:51,536 - root - DEBUG - Detected 1 persons in frame 38
+2025-07-09 00:28:52,154 - root - INFO - Person matching: HISTORY | Score: 0.949 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:52,828 - root - DEBUG - Detected 1 persons in frame 39
+2025-07-09 00:28:53,066 - root - INFO - Person matching: HISTORY | Score: 0.948 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:53,719 - root - DEBUG - Detected 1 persons in frame 40
+2025-07-09 00:28:54,164 - root - INFO - Person matching: HISTORY | Score: 0.948 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:54,946 - root - DEBUG - Detected 1 persons in frame 41
+2025-07-09 00:28:55,294 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:56,682 - root - DEBUG - Detected 1 persons in frame 42
+2025-07-09 00:28:57,577 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:58,112 - root - DEBUG - Detected 1 persons in frame 43
+2025-07-09 00:28:58,378 - root - INFO - Person matching: HISTORY | Score: 0.944 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:28:59,118 - root - DEBUG - Detected 1 persons in frame 44
+2025-07-09 00:29:00,220 - root - INFO - Person matching: HISTORY | Score: 0.944 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:29:00,960 - root - DEBUG - Detected 1 persons in frame 45
+2025-07-09 00:29:01,696 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:29:02,136 - root - DEBUG - Detected 1 persons in frame 46
+2025-07-09 00:29:02,412 - root - INFO - Person matching: HISTORY | Score: 0.939 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:29:02,900 - root - DEBUG - Detected 1 persons in frame 47
+2025-07-09 00:29:03,113 - root - INFO - Person matching: HISTORY | Score: 0.937 | Person ID: 5 | Status: RE_IDENTIFIED
+2025-07-09 00:29:03,518 - root - DEBUG - Detected 1 persons in frame 48
+2025-07-09 00:29:03,703 - root - INFO - Person matching: HISTORY | Score: 0.936 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:04,163 - root - DEBUG - Detected 1 persons in frame 49
+2025-07-09 00:29:04,391 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:04,917 - root - DEBUG - Detected 1 persons in frame 50
+2025-07-09 00:29:05,190 - root - INFO - Person matching: HISTORY | Score: 0.936 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:05,861 - root - DEBUG - Detected 1 persons in frame 51
+2025-07-09 00:29:06,051 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:06,414 - root - DEBUG - Detected 1 persons in frame 52
+2025-07-09 00:29:06,581 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:06,885 - root - DEBUG - Detected 1 persons in frame 53
+2025-07-09 00:29:07,074 - root - INFO - Person matching: HISTORY | Score: 0.942 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:07,720 - root - DEBUG - Detected 1 persons in frame 54
+2025-07-09 00:29:08,042 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:08,748 - root - DEBUG - Detected 1 persons in frame 55
+2025-07-09 00:29:09,014 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:09,430 - root - DEBUG - Detected 1 persons in frame 56
+2025-07-09 00:29:09,600 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:09,892 - root - DEBUG - Detected 1 persons in frame 57
+2025-07-09 00:29:10,130 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:10,548 - root - DEBUG - Detected 1 persons in frame 58
+2025-07-09 00:29:10,773 - root - INFO - Person matching: HISTORY | Score: 0.936 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:11,201 - root - DEBUG - Detected 1 persons in frame 59
+2025-07-09 00:29:11,518 - root - INFO - Person matching: HISTORY | Score: 0.930 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:11,814 - root - DEBUG - Detected 1 persons in frame 60
+2025-07-09 00:29:12,009 - root - INFO - Person matching: HISTORY | Score: 0.931 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:12,289 - root - DEBUG - Detected 1 persons in frame 61
+2025-07-09 00:29:12,431 - root - INFO - Person matching: HISTORY | Score: 0.926 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:12,625 - root - DEBUG - Detected 1 persons in frame 62
+2025-07-09 00:29:12,759 - root - INFO - Person matching: HISTORY | Score: 0.924 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:12,972 - root - DEBUG - Detected 1 persons in frame 63
+2025-07-09 00:29:13,099 - root - INFO - Person matching: HISTORY | Score: 0.920 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:13,368 - root - DEBUG - Detected 1 persons in frame 64
+2025-07-09 00:29:13,489 - root - INFO - Person matching: HISTORY | Score: 0.918 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:13,715 - root - DEBUG - Detected 1 persons in frame 65
+2025-07-09 00:29:13,862 - root - INFO - Person matching: HISTORY | Score: 0.909 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:14,100 - root - DEBUG - Detected 1 persons in frame 66
+2025-07-09 00:29:14,214 - root - INFO - Person matching: HISTORY | Score: 0.905 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:14,513 - root - DEBUG - Detected 1 persons in frame 67
+2025-07-09 00:29:14,641 - root - INFO - Person matching: HISTORY | Score: 0.892 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:14,997 - root - DEBUG - Detected 1 persons in frame 68
+2025-07-09 00:29:15,150 - root - INFO - Person matching: HISTORY | Score: 0.887 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:15,417 - root - DEBUG - Detected 1 persons in frame 69
+2025-07-09 00:29:15,582 - root - INFO - Person matching: HISTORY | Score: 0.882 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:15,933 - root - DEBUG - Detected 1 persons in frame 70
+2025-07-09 00:29:16,116 - root - INFO - Person matching: HISTORY | Score: 0.870 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:16,384 - root - DEBUG - Detected 1 persons in frame 71
+2025-07-09 00:29:16,467 - root - INFO - Person matching: HISTORY | Score: 0.842 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:16,769 - root - DEBUG - Detected 1 persons in frame 72
+2025-07-09 00:29:16,936 - root - INFO - Person matching: HISTORY | Score: 0.849 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:17,233 - root - DEBUG - Detected 2 persons in frame 73
+2025-07-09 00:29:17,521 - root - INFO - Person matching: HISTORY | Score: 0.859 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:17,525 - root - INFO - Person matching: HISTORY | Score: 0.895 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:17,715 - root - DEBUG - Detected 2 persons in frame 74
+2025-07-09 00:29:17,954 - root - INFO - Person matching: HISTORY | Score: 0.867 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:17,959 - root - INFO - Person matching: HISTORY | Score: 0.900 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:18,253 - root - DEBUG - Detected 2 persons in frame 75
+2025-07-09 00:29:18,475 - root - INFO - Person matching: HISTORY | Score: 0.882 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:18,478 - root - INFO - Person matching: HISTORY | Score: 0.902 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:18,720 - root - DEBUG - Detected 2 persons in frame 76
+2025-07-09 00:29:18,906 - root - INFO - Person matching: HISTORY | Score: 0.887 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:18,917 - root - INFO - Person matching: HISTORY | Score: 0.910 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:19,218 - root - DEBUG - Detected 2 persons in frame 77
+2025-07-09 00:29:19,505 - root - INFO - Person matching: HISTORY | Score: 0.878 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:19,516 - root - INFO - Person matching: HISTORY | Score: 0.909 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:19,772 - root - DEBUG - Detected 2 persons in frame 78
+2025-07-09 00:29:20,071 - root - INFO - Person matching: HISTORY | Score: 0.868 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:20,080 - root - INFO - Person matching: HISTORY | Score: 0.926 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:20,351 - root - DEBUG - Detected 2 persons in frame 79
+2025-07-09 00:29:20,590 - root - INFO - Person matching: HISTORY | Score: 0.876 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:20,595 - root - INFO - Person matching: HISTORY | Score: 0.937 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:20,827 - root - DEBUG - Detected 2 persons in frame 80
+2025-07-09 00:29:21,038 - root - INFO - Person matching: HISTORY | Score: 0.885 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:21,043 - root - INFO - Person matching: HISTORY | Score: 0.937 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:21,308 - root - DEBUG - Detected 2 persons in frame 81
+2025-07-09 00:29:21,555 - root - INFO - Person matching: HISTORY | Score: 0.894 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:21,559 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:21,802 - root - DEBUG - Detected 2 persons in frame 82
+2025-07-09 00:29:22,050 - root - INFO - Person matching: HISTORY | Score: 0.884 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:22,059 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:22,305 - root - DEBUG - Detected 2 persons in frame 83
+2025-07-09 00:29:22,534 - root - INFO - Person matching: HISTORY | Score: 0.878 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:22,545 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:22,802 - root - DEBUG - Detected 2 persons in frame 84
+2025-07-09 00:29:23,026 - root - INFO - Person matching: HISTORY | Score: 0.863 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:23,029 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:23,264 - root - DEBUG - Detected 2 persons in frame 85
+2025-07-09 00:29:23,437 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:23,441 - root - INFO - Person matching: HISTORY | Score: 0.849 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:23,728 - root - DEBUG - Detected 2 persons in frame 86
+2025-07-09 00:29:23,976 - root - INFO - Person matching: HISTORY | Score: 0.942 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:23,981 - root - INFO - Person matching: HISTORY | Score: 0.853 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:24,227 - root - DEBUG - Detected 2 persons in frame 87
+2025-07-09 00:29:24,489 - root - INFO - Person matching: HISTORY | Score: 0.946 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:24,493 - root - INFO - Person matching: HISTORY | Score: 0.840 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:24,796 - root - DEBUG - Detected 2 persons in frame 88
+2025-07-09 00:29:25,032 - root - INFO - Person matching: HISTORY | Score: 0.952 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:25,037 - root - INFO - Person matching: HISTORY | Score: 0.846 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:25,181 - root - DEBUG - Detected 2 persons in frame 89
+2025-07-09 00:29:25,431 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:25,438 - root - INFO - Person matching: HISTORY | Score: 0.849 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:25,639 - root - DEBUG - Detected 2 persons in frame 90
+2025-07-09 00:29:25,898 - root - INFO - Person matching: HISTORY | Score: 0.959 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:25,903 - root - INFO - Person matching: HISTORY | Score: 0.852 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:26,159 - root - DEBUG - Detected 2 persons in frame 91
+2025-07-09 00:29:26,457 - root - INFO - Person matching: HISTORY | Score: 0.959 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:26,467 - root - INFO - Person matching: HISTORY | Score: 0.857 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:26,729 - root - DEBUG - Detected 2 persons in frame 92
+2025-07-09 00:29:26,964 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:26,968 - root - INFO - Person matching: HISTORY | Score: 0.854 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:29:27,264 - root - DEBUG - Detected 1 persons in frame 93
+2025-07-09 00:29:27,409 - root - INFO - Person matching: HISTORY | Score: 0.948 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:27,678 - root - DEBUG - Detected 1 persons in frame 94
+2025-07-09 00:29:27,811 - root - INFO - Person matching: HISTORY | Score: 0.953 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:27,977 - root - DEBUG - Detected 1 persons in frame 95
+2025-07-09 00:29:28,139 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:28,462 - root - DEBUG - Detected 1 persons in frame 96
+2025-07-09 00:29:28,615 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:28,874 - root - DEBUG - Detected 1 persons in frame 97
+2025-07-09 00:29:28,980 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:29,179 - root - DEBUG - Detected 1 persons in frame 98
+2025-07-09 00:29:29,318 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:29,576 - root - DEBUG - Detected 1 persons in frame 99
+2025-07-09 00:29:29,707 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:29,980 - root - DEBUG - Detected 1 persons in frame 100
+2025-07-09 00:29:30,128 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:30,661 - root - DEBUG - Detected 1 persons in frame 101
+2025-07-09 00:29:30,906 - root - INFO - Person matching: HISTORY | Score: 0.956 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:31,485 - root - DEBUG - Detected 1 persons in frame 102
+2025-07-09 00:29:31,809 - root - INFO - Person matching: HISTORY | Score: 0.958 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:32,067 - root - DEBUG - Detected 1 persons in frame 103
+2025-07-09 00:29:32,209 - root - INFO - Person matching: HISTORY | Score: 0.959 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:32,499 - root - DEBUG - Detected 1 persons in frame 104
+2025-07-09 00:29:32,669 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:32,942 - root - DEBUG - Detected 1 persons in frame 105
+2025-07-09 00:29:33,054 - root - INFO - Person matching: HISTORY | Score: 0.963 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:33,248 - root - DEBUG - Detected 1 persons in frame 106
+2025-07-09 00:29:33,351 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:33,538 - root - DEBUG - Detected 1 persons in frame 107
+2025-07-09 00:29:33,642 - root - INFO - Person matching: HISTORY | Score: 0.968 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:33,856 - root - DEBUG - Detected 1 persons in frame 108
+2025-07-09 00:29:33,961 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:34,154 - root - DEBUG - Detected 1 persons in frame 109
+2025-07-09 00:29:34,259 - root - INFO - Person matching: HISTORY | Score: 0.968 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:34,446 - root - DEBUG - Detected 2 persons in frame 110
+2025-07-09 00:29:34,606 - root - INFO - Person matching: HISTORY | Score: 0.969 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:34,609 - root - INFO - Person matching: HISTORY | Score: 0.911 | Person ID: 2 | Status: RE_IDENTIFIED
+2025-07-09 00:29:34,878 - root - DEBUG - Detected 2 persons in frame 111
+2025-07-09 00:29:35,092 - root - INFO - Person matching: HISTORY | Score: 0.971 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:35,101 - root - INFO - Person matching: HISTORY | Score: 0.911 | Person ID: 2 | Status: RE_IDENTIFIED
+2025-07-09 00:29:35,316 - root - DEBUG - Detected 2 persons in frame 112
+2025-07-09 00:29:35,444 - root - INFO - Person matching: HISTORY | Score: 0.970 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:35,446 - root - INFO - Person matching: HISTORY | Score: 0.925 | Person ID: 2 | Status: RE_IDENTIFIED
+2025-07-09 00:29:35,668 - root - DEBUG - Detected 2 persons in frame 113
+2025-07-09 00:29:35,891 - root - INFO - Person matching: HISTORY | Score: 0.924 | Person ID: 2 | Status: RE_IDENTIFIED
+2025-07-09 00:29:35,894 - root - INFO - Person matching: HISTORY | Score: 0.973 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:36,130 - root - DEBUG - Detected 2 persons in frame 114
+2025-07-09 00:29:36,367 - root - INFO - Person matching: HISTORY | Score: 0.923 | Person ID: 2 | Status: RE_IDENTIFIED
+2025-07-09 00:29:36,369 - root - INFO - Person matching: HISTORY | Score: 0.973 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:36,575 - root - DEBUG - Detected 2 persons in frame 115
+2025-07-09 00:29:36,797 - root - INFO - Person matching: HISTORY | Score: 0.922 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:36,799 - root - INFO - Person matching: HISTORY | Score: 0.974 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:37,015 - root - DEBUG - Detected 2 persons in frame 116
+2025-07-09 00:29:37,149 - root - INFO - Person matching: HISTORY | Score: 0.925 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:37,152 - root - INFO - Person matching: HISTORY | Score: 0.974 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:37,356 - root - DEBUG - Detected 2 persons in frame 117
+2025-07-09 00:29:37,528 - root - INFO - Person matching: HISTORY | Score: 0.935 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:37,536 - root - INFO - Person matching: HISTORY | Score: 0.975 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:37,814 - root - DEBUG - Detected 2 persons in frame 118
+2025-07-09 00:29:38,134 - root - INFO - Person matching: HISTORY | Score: 0.936 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:38,142 - root - INFO - Person matching: HISTORY | Score: 0.976 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:38,458 - root - DEBUG - Detected 2 persons in frame 119
+2025-07-09 00:29:38,751 - root - INFO - Person matching: HISTORY | Score: 0.939 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:38,760 - root - INFO - Person matching: HISTORY | Score: 0.976 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:39,064 - root - DEBUG - Detected 2 persons in frame 120
+2025-07-09 00:29:39,299 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:39,306 - root - INFO - Person matching: HISTORY | Score: 0.978 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:39,554 - root - DEBUG - Detected 2 persons in frame 121
+2025-07-09 00:29:39,776 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:39,780 - root - INFO - Person matching: HISTORY | Score: 0.978 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:40,015 - root - DEBUG - Detected 2 persons in frame 122
+2025-07-09 00:29:40,147 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:40,155 - root - INFO - Person matching: HISTORY | Score: 0.978 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:40,411 - root - DEBUG - Detected 2 persons in frame 123
+2025-07-09 00:29:40,635 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:40,640 - root - INFO - Person matching: HISTORY | Score: 0.979 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:40,891 - root - DEBUG - Detected 2 persons in frame 124
+2025-07-09 00:29:41,079 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:41,083 - root - INFO - Person matching: HISTORY | Score: 0.979 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:41,328 - root - DEBUG - Detected 2 persons in frame 125
+2025-07-09 00:29:41,608 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:41,620 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:42,199 - root - DEBUG - Detected 2 persons in frame 126
+2025-07-09 00:29:42,582 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:42,595 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:42,988 - root - DEBUG - Detected 2 persons in frame 127
+2025-07-09 00:29:43,261 - root - INFO - Person matching: HISTORY | Score: 0.953 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:43,271 - root - INFO - Person matching: HISTORY | Score: 0.959 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:43,582 - root - DEBUG - Detected 2 persons in frame 128
+2025-07-09 00:29:43,777 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:43,781 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:44,047 - root - DEBUG - Detected 2 persons in frame 129
+2025-07-09 00:29:44,714 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:44,720 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:45,293 - root - DEBUG - Detected 2 persons in frame 130
+2025-07-09 00:29:45,827 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:45,865 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:46,227 - root - DEBUG - Detected 2 persons in frame 131
+2025-07-09 00:29:46,565 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:46,569 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:46,904 - root - DEBUG - Detected 2 persons in frame 132
+2025-07-09 00:29:47,196 - root - INFO - Person matching: HISTORY | Score: 0.966 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:47,201 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:47,566 - root - DEBUG - Detected 2 persons in frame 133
+2025-07-09 00:29:47,960 - root - INFO - Person matching: HISTORY | Score: 0.968 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:47,976 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:48,395 - root - DEBUG - Detected 2 persons in frame 134
+2025-07-09 00:29:48,800 - root - INFO - Person matching: HISTORY | Score: 0.967 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:48,812 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:49,338 - root - DEBUG - Detected 2 persons in frame 135
+2025-07-09 00:29:49,858 - root - INFO - Person matching: HISTORY | Score: 0.963 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:49,935 - root - INFO - Person matching: HISTORY | Score: 0.946 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:50,387 - root - DEBUG - Detected 2 persons in frame 136
+2025-07-09 00:29:51,091 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:51,094 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:51,468 - root - DEBUG - Detected 2 persons in frame 137
+2025-07-09 00:29:51,725 - root - INFO - Person matching: HISTORY | Score: 0.959 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:51,733 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:51,991 - root - DEBUG - Detected 2 persons in frame 138
+2025-07-09 00:29:52,236 - root - INFO - Person matching: HISTORY | Score: 0.961 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:52,242 - root - INFO - Person matching: HISTORY | Score: 0.939 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:52,431 - root - DEBUG - Detected 2 persons in frame 139
+2025-07-09 00:29:52,677 - root - INFO - Person matching: HISTORY | Score: 0.939 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:52,682 - root - INFO - Person matching: HISTORY | Score: 0.953 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:52,887 - root - DEBUG - Detected 2 persons in frame 140
+2025-07-09 00:29:53,089 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:53,104 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:53,286 - root - DEBUG - Detected 2 persons in frame 141
+2025-07-09 00:29:53,482 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:53,487 - root - INFO - Person matching: HISTORY | Score: 0.942 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:53,694 - root - DEBUG - Detected 2 persons in frame 142
+2025-07-09 00:29:53,897 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:53,903 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:54,164 - root - DEBUG - Detected 2 persons in frame 143
+2025-07-09 00:29:54,402 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:54,408 - root - INFO - Person matching: HISTORY | Score: 0.930 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:54,671 - root - DEBUG - Detected 2 persons in frame 144
+2025-07-09 00:29:54,876 - root - INFO - Person matching: HISTORY | Score: 0.939 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:54,881 - root - INFO - Person matching: HISTORY | Score: 0.932 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:55,168 - root - DEBUG - Detected 2 persons in frame 145
+2025-07-09 00:29:55,399 - root - INFO - Person matching: HISTORY | Score: 0.942 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:55,404 - root - INFO - Person matching: HISTORY | Score: 0.929 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:55,621 - root - DEBUG - Detected 2 persons in frame 146
+2025-07-09 00:29:55,909 - root - INFO - Person matching: HISTORY | Score: 0.942 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:55,919 - root - INFO - Person matching: HISTORY | Score: 0.930 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:56,177 - root - DEBUG - Detected 2 persons in frame 147
+2025-07-09 00:29:56,443 - root - INFO - Person matching: HISTORY | Score: 0.945 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:56,452 - root - INFO - Person matching: HISTORY | Score: 0.922 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:56,749 - root - DEBUG - Detected 2 persons in frame 148
+2025-07-09 00:29:56,943 - root - INFO - Person matching: HISTORY | Score: 0.947 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:56,945 - root - INFO - Person matching: HISTORY | Score: 0.916 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:57,095 - root - DEBUG - Detected 2 persons in frame 149
+2025-07-09 00:29:57,336 - root - INFO - Person matching: HISTORY | Score: 0.898 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:57,344 - root - INFO - Person matching: HISTORY | Score: 0.950 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:57,539 - root - DEBUG - Detected 2 persons in frame 150
+2025-07-09 00:29:57,723 - root - INFO - Person matching: HISTORY | Score: 0.901 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:57,725 - root - INFO - Person matching: HISTORY | Score: 0.953 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:58,012 - root - DEBUG - Detected 2 persons in frame 151
+2025-07-09 00:29:58,207 - root - INFO - Person matching: HISTORY | Score: 0.897 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:58,212 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:58,429 - root - DEBUG - Detected 2 persons in frame 152
+2025-07-09 00:29:58,629 - root - INFO - Person matching: HISTORY | Score: 0.894 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:58,632 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:58,866 - root - DEBUG - Detected 2 persons in frame 153
+2025-07-09 00:29:59,084 - root - INFO - Person matching: HISTORY | Score: 0.901 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:59,087 - root - INFO - Person matching: HISTORY | Score: 0.956 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:59,309 - root - DEBUG - Detected 2 persons in frame 154
+2025-07-09 00:29:59,557 - root - INFO - Person matching: HISTORY | Score: 0.900 | Person ID: 4 | Status: RE_IDENTIFIED
+2025-07-09 00:29:59,562 - root - INFO - Person matching: HISTORY | Score: 0.955 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:29:59,761 - root - DEBUG - Detected 2 persons in frame 155
+2025-07-09 00:29:59,981 - root - INFO - Person matching: HISTORY | Score: 0.896 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:29:59,984 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:00,222 - root - DEBUG - Detected 2 persons in frame 156
+2025-07-09 00:30:00,396 - root - INFO - Person matching: HISTORY | Score: 0.902 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:00,405 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:00,629 - root - DEBUG - Detected 2 persons in frame 157
+2025-07-09 00:30:00,853 - root - INFO - Person matching: HISTORY | Score: 0.908 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:00,856 - root - INFO - Person matching: HISTORY | Score: 0.953 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:01,118 - root - DEBUG - Detected 2 persons in frame 158
+2025-07-09 00:30:01,344 - root - INFO - Person matching: HISTORY | Score: 0.953 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:01,353 - root - INFO - Person matching: HISTORY | Score: 0.910 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:01,623 - root - DEBUG - Detected 2 persons in frame 159
+2025-07-09 00:30:01,863 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:01,868 - root - INFO - Person matching: HISTORY | Score: 0.915 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:02,084 - root - DEBUG - Detected 2 persons in frame 160
+2025-07-09 00:30:02,326 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:02,331 - root - INFO - Person matching: HISTORY | Score: 0.919 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:02,671 - root - DEBUG - Detected 2 persons in frame 161
+2025-07-09 00:30:02,914 - root - INFO - Person matching: HISTORY | Score: 0.924 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:02,919 - root - INFO - Person matching: HISTORY | Score: 0.954 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:03,112 - root - DEBUG - Detected 2 persons in frame 162
+2025-07-09 00:30:03,313 - root - INFO - Person matching: HISTORY | Score: 0.927 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:03,316 - root - INFO - Person matching: HISTORY | Score: 0.956 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:03,546 - root - DEBUG - Detected 2 persons in frame 163
+2025-07-09 00:30:03,751 - root - INFO - Person matching: HISTORY | Score: 0.928 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:03,754 - root - INFO - Person matching: HISTORY | Score: 0.956 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:03,983 - root - DEBUG - Detected 2 persons in frame 164
+2025-07-09 00:30:04,157 - root - INFO - Person matching: HISTORY | Score: 0.928 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:04,166 - root - INFO - Person matching: HISTORY | Score: 0.957 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:04,354 - root - DEBUG - Detected 2 persons in frame 165
+2025-07-09 00:30:04,448 - root - INFO - Person matching: HISTORY | Score: 0.930 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:04,453 - root - INFO - Person matching: HISTORY | Score: 0.960 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:04,708 - root - DEBUG - Detected 2 persons in frame 166
+2025-07-09 00:30:04,946 - root - INFO - Person matching: HISTORY | Score: 0.930 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:04,951 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:05,191 - root - DEBUG - Detected 2 persons in frame 167
+2025-07-09 00:30:05,416 - root - INFO - Person matching: HISTORY | Score: 0.932 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:05,421 - root - INFO - Person matching: HISTORY | Score: 0.962 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:05,702 - root - DEBUG - Detected 2 persons in frame 168
+2025-07-09 00:30:05,946 - root - INFO - Person matching: HISTORY | Score: 0.937 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:05,949 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:06,181 - root - DEBUG - Detected 2 persons in frame 169
+2025-07-09 00:30:06,358 - root - INFO - Person matching: HISTORY | Score: 0.934 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:06,366 - root - INFO - Person matching: HISTORY | Score: 0.967 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:06,644 - root - DEBUG - Detected 2 persons in frame 170
+2025-07-09 00:30:06,854 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:06,858 - root - INFO - Person matching: HISTORY | Score: 0.968 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:07,095 - root - DEBUG - Detected 2 persons in frame 171
+2025-07-09 00:30:07,273 - root - INFO - Person matching: HISTORY | Score: 0.939 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:07,284 - root - INFO - Person matching: HISTORY | Score: 0.968 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:07,493 - root - DEBUG - Detected 2 persons in frame 172
+2025-07-09 00:30:07,649 - root - INFO - Person matching: HISTORY | Score: 0.939 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:07,652 - root - INFO - Person matching: HISTORY | Score: 0.966 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:07,789 - root - DEBUG - Detected 2 persons in frame 173
+2025-07-09 00:30:07,940 - root - INFO - Person matching: HISTORY | Score: 0.939 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:07,943 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:08,129 - root - DEBUG - Detected 2 persons in frame 174
+2025-07-09 00:30:08,375 - root - INFO - Person matching: HISTORY | Score: 0.937 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:08,381 - root - INFO - Person matching: HISTORY | Score: 0.966 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:08,593 - root - DEBUG - Detected 2 persons in frame 175
+2025-07-09 00:30:08,953 - root - INFO - Person matching: HISTORY | Score: 0.940 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:08,963 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:09,259 - root - DEBUG - Detected 2 persons in frame 176
+2025-07-09 00:30:09,469 - root - INFO - Person matching: HISTORY | Score: 0.944 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:09,472 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:09,684 - root - DEBUG - Detected 2 persons in frame 177
+2025-07-09 00:30:09,864 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:09,872 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:10,114 - root - DEBUG - Detected 2 persons in frame 178
+2025-07-09 00:30:10,280 - root - INFO - Person matching: HISTORY | Score: 0.941 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:10,289 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:10,856 - root - DEBUG - Detected 2 persons in frame 179
+2025-07-09 00:30:11,345 - root - INFO - Person matching: HISTORY | Score: 0.943 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:11,379 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:11,888 - root - DEBUG - Detected 2 persons in frame 180
+2025-07-09 00:30:12,199 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:12,204 - root - INFO - Person matching: HISTORY | Score: 0.966 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:12,487 - root - DEBUG - Detected 2 persons in frame 181
+2025-07-09 00:30:12,787 - root - INFO - Person matching: HISTORY | Score: 0.936 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:12,795 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:13,043 - root - DEBUG - Detected 2 persons in frame 182
+2025-07-09 00:30:13,205 - root - INFO - Person matching: HISTORY | Score: 0.935 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:13,211 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:13,464 - root - DEBUG - Detected 2 persons in frame 183
+2025-07-09 00:30:13,719 - root - INFO - Person matching: HISTORY | Score: 0.934 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:13,725 - root - INFO - Person matching: HISTORY | Score: 0.966 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:13,993 - root - DEBUG - Detected 2 persons in frame 184
+2025-07-09 00:30:14,249 - root - INFO - Person matching: HISTORY | Score: 0.934 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:14,255 - root - INFO - Person matching: HISTORY | Score: 0.968 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:14,528 - root - DEBUG - Detected 2 persons in frame 185
+2025-07-09 00:30:14,728 - root - INFO - Person matching: HISTORY | Score: 0.935 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:14,734 - root - INFO - Person matching: HISTORY | Score: 0.967 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:14,970 - root - DEBUG - Detected 2 persons in frame 186
+2025-07-09 00:30:15,193 - root - INFO - Person matching: HISTORY | Score: 0.970 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:15,203 - root - INFO - Person matching: HISTORY | Score: 0.938 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:15,419 - root - DEBUG - Detected 2 persons in frame 187
+2025-07-09 00:30:15,622 - root - INFO - Person matching: HISTORY | Score: 0.934 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:15,627 - root - INFO - Person matching: HISTORY | Score: 0.971 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:15,906 - root - DEBUG - Detected 2 persons in frame 188
+2025-07-09 00:30:16,103 - root - INFO - Person matching: HISTORY | Score: 0.935 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:16,106 - root - INFO - Person matching: HISTORY | Score: 0.974 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:16,311 - root - DEBUG - Detected 2 persons in frame 189
+2025-07-09 00:30:16,556 - root - INFO - Person matching: HISTORY | Score: 0.933 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:16,562 - root - INFO - Person matching: HISTORY | Score: 0.972 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:16,818 - root - DEBUG - Detected 2 persons in frame 190
+2025-07-09 00:30:17,007 - root - INFO - Person matching: HISTORY | Score: 0.929 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:17,028 - root - INFO - Person matching: HISTORY | Score: 0.971 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:17,431 - root - DEBUG - Detected 2 persons in frame 191
+2025-07-09 00:30:17,762 - root - INFO - Person matching: HISTORY | Score: 0.926 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:17,770 - root - INFO - Person matching: HISTORY | Score: 0.970 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:18,121 - root - DEBUG - Detected 2 persons in frame 192
+2025-07-09 00:30:18,431 - root - INFO - Person matching: HISTORY | Score: 0.926 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:18,445 - root - INFO - Person matching: HISTORY | Score: 0.969 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:18,714 - root - DEBUG - Detected 2 persons in frame 193
+2025-07-09 00:30:18,999 - root - INFO - Person matching: HISTORY | Score: 0.923 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:19,004 - root - INFO - Person matching: HISTORY | Score: 0.969 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:19,321 - root - DEBUG - Detected 2 persons in frame 194
+2025-07-09 00:30:19,621 - root - INFO - Person matching: HISTORY | Score: 0.914 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:19,627 - root - INFO - Person matching: HISTORY | Score: 0.968 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:19,996 - root - DEBUG - Detected 2 persons in frame 195
+2025-07-09 00:30:20,295 - root - INFO - Person matching: HISTORY | Score: 0.902 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:20,310 - root - INFO - Person matching: HISTORY | Score: 0.967 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:20,691 - root - DEBUG - Detected 2 persons in frame 196
+2025-07-09 00:30:20,956 - root - INFO - Person matching: HISTORY | Score: 0.901 | Person ID: 1 | Status: RE_IDENTIFIED
+2025-07-09 00:30:20,963 - root - INFO - Person matching: HISTORY | Score: 0.967 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:21,271 - root - DEBUG - Detected 2 persons in frame 197
+2025-07-09 00:30:21,536 - root - INFO - Person matching: HISTORY | Score: 0.965 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:21,541 - root - INFO - Person matching: HISTORY | Score: 0.893 | Person ID: 6 | Status: RE_IDENTIFIED
+2025-07-09 00:30:21,824 - root - DEBUG - Detected 2 persons in frame 198
+2025-07-09 00:30:22,023 - root - INFO - Person matching: HISTORY | Score: 0.966 | Person ID: 3 | Status: RE_IDENTIFIED
+2025-07-09 00:30:22,029 - root - INFO - Person matching: HISTORY | Score: 0.898 | Person ID: 6 | Status: RE_IDENTIFIED

@@ -1,6 +1,8 @@
-# Core dependencies
-torch>=2.0.0
-torchvision>=0.15.0
+# Core dependencies with CUDA support
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch>=2.0.0+cu121
+torchvision>=0.15.0+cu121
+torchaudio>=2.0.0+cu121
 ultralytics>=8.0.0
 opencv-python>=4.8.0
 numpy>=1.24.0
@@ -31,6 +33,5 @@ argparse
 logging
 pathlib
 
-# Optional: GPU acceleration
-# cupy-cuda11x>=12.0.0  # Uncomment for CUDA 11.x
-# cupy-cuda12x>=12.0.0  # Uncomment for CUDA 12.x 
+# GPU acceleration for CUDA 12.x
+cupy-cuda12x>=12.0.0 

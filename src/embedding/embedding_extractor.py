@@ -60,8 +60,8 @@ class EmbeddingExtractor:
         """Build ResNet50-based embedding model."""
         import torchvision.models as models
         
-        # Load pre-trained ResNet50
-        model = models.resnet50(pretrained=True)
+        # Load pre-trained ResNet50 with new API
+        model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V1)
         
         # Remove the last classification layer
         model = nn.Sequential(*list(model.children())[:-1])

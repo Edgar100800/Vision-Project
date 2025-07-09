@@ -44,6 +44,7 @@ class Person:
     embedding: Optional[np.ndarray] = None
     person_id: Optional[int] = None
     track_id: Optional[int] = None
+    status: str = "NEW"  # NEW, TRACKING, RE_IDENTIFIED, LOST
     
     def get_features(self) -> Dict[str, Any]:
         """Get all features for this person."""

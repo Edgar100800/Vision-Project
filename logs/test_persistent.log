@@ -1,0 +1,9 @@
+2025-07-08 23:29:14,156 - root - INFO - PersonDetector initialized with device: cuda
+2025-07-08 23:29:16,060 - root - INFO - EmbeddingExtractor initialized with resnet50
+2025-07-08 23:29:16,063 - root - INFO - ReIDMatcher initialized with threshold: 0.7
+2025-07-08 23:29:16,068 - root - INFO - PersistentTracker initialized
+2025-07-08 23:29:16,070 - root - INFO - Visualizer initialized
+2025-07-08 23:29:22,188 - root - INFO - Started new tracking session at 0.0
+2025-07-08 23:32:10,368 - root - INFO - Saved person history to data\persistent\person_history.pkl
+2025-07-08 23:32:10,369 - root - INFO - Ended tracking session at 1752035530.3421996
+2025-07-08 23:32:11,997 - root - INFO - Exported history to data/processed/test_history.json

@@ -13,7 +13,7 @@ detection:
   nms_threshold: 0.4
   max_detections: 50
   min_person_height: 50
-  device: "auto"  # "cpu", "cuda", or "auto"
+  device: "cuda"  # "cpu", "cuda", or "auto"
 
 # Embedding settings
 embedding:
@@ -39,6 +39,15 @@ tracking:
   use_kalman_filter: true
   kalman_process_noise: 0.01
   kalman_measurement_noise: 0.1
+  # Persistent tracking settings
+  reid_threshold: 0.75  # threshold for matching with active tracks (increased)
+  history_threshold: 0.7  # threshold for matching with person history (increased)
+  max_history_age: 3600  # maximum age of history entries in seconds (1 hour)
+  spatial_threshold: 100  # maximum spatial distance for matching (pixels) (decreased)
+  min_track_frames: 5  # minimum frames before allowing re-identification (increased)
+  # ID locking settings
+  id_lock_threshold: 0.8  # high threshold to lock a person ID permanently (increased)
+  id_lock_frames: 3  # frames to maintain high confidence before locking ID (increased)
 
 # Visualization settings
 visualization:

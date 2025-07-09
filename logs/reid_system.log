@@ -1,0 +1,51 @@
+2025-07-08 22:49:05,450 - root - INFO - Initializing Person Re-identification System
+2025-07-08 22:49:10,817 - root - INFO - PersonDetector initialized with device: cuda
+2025-07-08 22:49:15,982 - root - INFO - EmbeddingExtractor initialized with resnet50
+2025-07-08 22:49:15,991 - root - INFO - ReIDMatcher initialized with threshold: 0.7
+2025-07-08 22:49:15,996 - root - INFO - TrackManager initialized
+2025-07-08 22:49:16,002 - root - INFO - Visualizer initialized
+2025-07-08 22:49:16,007 - root - INFO - System initialization complete
+2025-07-08 22:49:16,012 - root - INFO - Processing video: data/raw/video_1.mp4
+2025-07-08 22:49:17,132 - root - INFO - Video properties: 852x480, 30.0 FPS, 781 frames
+2025-07-08 22:49:58,141 - root - ERROR - Error during processing: name 'Person' is not defined
+2025-07-08 22:53:41,458 - root - INFO - Initializing Person Re-identification System
+2025-07-08 22:53:45,114 - root - INFO - PersonDetector initialized with device: cuda
+2025-07-08 22:53:47,617 - root - INFO - EmbeddingExtractor initialized with resnet50
+2025-07-08 22:53:47,626 - root - INFO - ReIDMatcher initialized with threshold: 0.7
+2025-07-08 22:53:47,637 - root - INFO - TrackManager initialized
+2025-07-08 22:53:47,647 - root - INFO - Visualizer initialized
+2025-07-08 22:53:47,653 - root - INFO - System initialization complete
+2025-07-08 22:53:47,675 - root - INFO - Processing video: data/raw/video_1.mp4
+2025-07-08 22:53:47,883 - root - INFO - Video properties: 852x480, 30.0 FPS, 781 frames
+2025-07-08 23:05:19,180 - root - INFO - Video processing complete. Output: data/processed/test_output.mp4
+2025-07-08 23:05:19,181 - root - INFO - Processing statistics: {'total_frames': 781, 'processed_frames': 781, 'total_detections': 1803, 'total_tracks': 1803, 'processing_time': 691.2247052192688, 'fps_processing': 1.1298785967903924, 'active_tracks': 1, 'lost_tracks': 0, 'avg_track_length': np.float64(1.0), 'avg_track_duration': np.float64(0.0), 'min_track_length': np.int64(1), 'max_track_length': np.int64(1)}
+2025-07-08 23:05:19,188 - root - ERROR - Error during processing: Object of type int64 is not JSON serializable
+2025-07-08 23:08:21,210 - root - INFO - Initializing Person Re-identification System
+2025-07-08 23:08:25,935 - root - INFO - PersonDetector initialized with device: cuda
+2025-07-08 23:08:29,327 - root - INFO - EmbeddingExtractor initialized with resnet50
+2025-07-08 23:08:29,328 - root - INFO - ReIDMatcher initialized with threshold: 0.7
+2025-07-08 23:08:29,330 - root - INFO - TrackManager initialized
+2025-07-08 23:08:29,330 - root - INFO - Visualizer initialized
+2025-07-08 23:08:29,332 - root - INFO - System initialization complete
+2025-07-08 23:08:29,333 - root - INFO - Processing video: data/raw/video_1.mp4
+2025-07-08 23:08:29,420 - root - INFO - Video properties: 852x480, 30.0 FPS, 781 frames
+2025-07-08 23:18:52,098 - root - INFO - Video processing complete. Output: data/processed/test_output.mp4
+2025-07-08 23:18:52,099 - root - INFO - Processing statistics: {'total_frames': 781, 'processed_frames': 781, 'total_detections': 1803, 'total_tracks': 1803, 'processing_time': 622.6380076408386, 'fps_processing': 1.2543403878590569, 'active_tracks': 1, 'lost_tracks': 0, 'avg_track_length': np.float64(1.0), 'avg_track_duration': np.float64(0.0), 'min_track_length': np.int64(1), 'max_track_length': np.int64(1)}
+2025-07-08 23:18:52,676 - root - INFO - Results saved to: data/processed
+2025-07-08 23:37:58,979 - root - INFO - Initializing Person Re-identification System
+2025-07-08 23:38:07,753 - root - INFO - PersonDetector initialized with device: cuda
+2025-07-08 23:38:13,469 - root - INFO - EmbeddingExtractor initialized with resnet50
+2025-07-08 23:38:13,472 - root - INFO - ReIDMatcher initialized with threshold: 0.7
+2025-07-08 23:38:13,531 - root - INFO - Loaded person history: 6 persons
+2025-07-08 23:38:13,533 - root - INFO - PersistentTracker initialized
+2025-07-08 23:38:13,539 - root - INFO - Visualizer initialized
+2025-07-08 23:38:13,541 - root - INFO - System initialization complete
+2025-07-08 23:38:13,542 - root - INFO - Processing video: data/raw/video.mp4
+2025-07-08 23:38:13,601 - root - INFO - Video properties: 1280x720, 30.0 FPS, 495 frames
+2025-07-08 23:38:24,223 - root - INFO - Started new tracking session at 0.0
+2025-07-08 23:43:48,006 - root - INFO - Saved person history to data\persistent\person_history.pkl
+2025-07-08 23:43:48,007 - root - INFO - Ended tracking session at 1752036227.9358225
+2025-07-08 23:43:48,007 - root - INFO - Video processing complete. Output: data/processed/persistent_output.mp4
+2025-07-08 23:43:48,008 - root - INFO - Processing statistics: {'total_frames': 495, 'processed_frames': 495, 'total_detections': 0, 'total_tracks': 794, 'processing_time': 334.3037884235382, 'fps_processing': 1.4806891729652538, 'active_tracks': 1, 'total_persons': 6, 'total_reid_matches': 794, 'session_duration': 0}
+2025-07-08 23:43:48,134 - root - INFO - Exported history to data\processed\person_history.json
+2025-07-08 23:43:48,135 - root - INFO - Results saved to: data/processed

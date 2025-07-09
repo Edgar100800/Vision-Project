@@ -114,17 +114,17 @@ class TrackManager:
         
         # Convert to (person, track) pairs
         matches = []
-        matched_persons = set()
-        matched_tracks = set()
+        matched_person_ids = set()
+        matched_track_ids = set()
         
         for match in reid_matches:
             query_person = match.query_person
             gallery_track = self.tracks[match.gallery_person.track_id]
             
-            if query_person not in matched_persons and gallery_track not in matched_tracks:
+            if query_person.person_id not in matched_person_ids and gallery_track.track_id not in matched_track_ids:
                 matches.append((query_person, gallery_track))
-                matched_persons.add(query_person)
-                matched_tracks.add(gallery_track)
+                matched_person_ids.add(query_person.person_id)
+                matched_track_ids.add(gallery_track.track_id)
         
         return matches
     
@@ -151,8 +151,8 @@ class TrackManager:
         Returns:
             List of newly created tracks
         """
-        matched_persons = {person for person, _ in matches}
-        unmatched_persons = [p for p in persons if p not in matched_persons]
+        matched_person_ids = {person.person_id for person, _ in matches}
+        unmatched_persons = [p for p in persons if p.person_id not in matched_person_ids]
         
         new_tracks = []
         

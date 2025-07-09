@@ -22,10 +22,11 @@ from tqdm import tqdm
 from src.utils.config_loader import ConfigLoader
 from src.utils.logger import setup_logger
 from src.utils.video_utils import VideoProcessor
+from src.utils.data_structures import Person, Detection, Track, TrackingResult
 from src.detection.person_detector import PersonDetector
 from src.embedding.embedding_extractor import EmbeddingExtractor
 from src.reid.reid_matcher import ReIDMatcher
-from src.tracking.track_manager import TrackManager
+from src.tracking.persistent_tracker import PersistentTracker
 from src.visualization.visualizer import Visualizer
 
 
@@ -66,8 +67,8 @@ class PersonReIDSystem:
         # Re-identification matcher
         self.reid_matcher = ReIDMatcher(self.config, self.embedding_extractor)
         
-        # Track manager
-        self.track_manager = TrackManager(self.config, self.reid_matcher)
+        # Persistent tracker
+        self.track_manager = PersistentTracker(self.config, self.reid_matcher)
         
         # Visualizer
         self.visualizer = Visualizer(self.config)
@@ -157,6 +158,9 @@ class PersonReIDSystem:
         stats['processing_time'] = end_time - start_time
         stats['fps_processing'] = stats['processed_frames'] / stats['processing_time']
         
+        # End tracking session
+        self.track_manager.end_session(end_time)
+        
         # Get track statistics
         track_stats = self.track_manager.get_track_statistics()
         stats.update(track_stats)
@@ -202,6 +206,18 @@ class PersonReIDSystem:
         # 3. Update tracks
         tracking_result = self.track_manager.update_tracks(frame_id, timestamp, persons)
         
+        # 4. Update person status based on tracking result
+        for person in persons:
+            if person.person_id is not None:
+                # Check if this is a new track
+                if any(track.person_id == person.person_id for track in tracking_result.new_tracks):
+                    person.status = "NEW"
+                # Check if this is a re-identified person
+                elif any(track.person_id == person.person_id for track in tracking_result.tracks if track.total_frames > 1):
+                    person.status = "TRACKING"
+                else:
+                    person.status = "RE_IDENTIFIED"
+        
         return tracking_result
     
     def _extract_person_crop(self, frame: np.ndarray, detection) -> np.ndarray:
@@ -245,17 +261,35 @@ class PersonReIDSystem:
         output_path = Path(output_dir)
         output_path.mkdir(parents=True, exist_ok=True)
         
+        # Convert NumPy types to native Python types for JSON serialization
+        def convert_numpy_types(obj):
+            if isinstance(obj, np.integer):
+                return int(obj)
+            elif isinstance(obj, np.floating):
+                return float(obj)
+            elif isinstance(obj, np.ndarray):
+                return obj.tolist()
+            elif isinstance(obj, dict):
+                return {key: convert_numpy_types(value) for key, value in obj.items()}
+            elif isinstance(obj, list):
+                return [convert_numpy_types(item) for item in obj]
+            else:
+                return obj
+        
+        # Convert statistics
+        stats_serializable = convert_numpy_types(stats)
+        
         # Save statistics
         import json
         stats_file = output_path / "processing_stats.json"
         with open(stats_file, 'w') as f:
-            json.dump(stats, f, indent=2)
+            json.dump(stats_serializable, f, indent=2)
         
         # Save track information
         tracks_file = output_path / "tracks_info.json"
         tracks_data = []
         
-        for track in self.track_manager.tracks.values():
+        for track in self.track_manager.active_tracks.values():
             track_info = {
                 'track_id': track.track_id,
                 'person_id': track.person_id,
@@ -269,6 +303,10 @@ class PersonReIDSystem:
         
         with open(tracks_file, 'w') as f:
             json.dump(tracks_data, f, indent=2)
+        
+        # Save persistent person history
+        history_file = output_path / "person_history.json"
+        self.track_manager.export_history_json(str(history_file))
         
         logging.info(f"Results saved to: {output_dir}")
 
