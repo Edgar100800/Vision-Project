@@ -1,0 +1,36 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Deep learning and computer vision
+timm>=0.9.0
+transformers>=4.30.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Video processing
+ffmpeg-python>=0.2.0
+moviepy>=1.0.3
+
+# Data handling
+pandas>=2.0.0
+h5py>=3.9.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+PyYAML>=6.0
+argparse
+logging
+pathlib
+
+# Optional: GPU acceleration
+# cupy-cuda11x>=12.0.0  # Uncomment for CUDA 11.x
+# cupy-cuda12x>=12.0.0  # Uncomment for CUDA 12.x 

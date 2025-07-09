@@ -1,0 +1,86 @@
+# Configuration file for Person Re-identification System
+
+# Model paths
+models:
+  yolo_pose: "models/yolo11m-pose.pt"
+  yolo_detection: "models/yolo11m.pt"
+  embedding_model: "models/resnet50_embedding.pth"
+  reid_model: "models/reid_transformer.pth"
+
+# Detection settings
+detection:
+  confidence_threshold: 0.5
+  nms_threshold: 0.4
+  max_detections: 50
+  min_person_height: 50
+  device: "auto"  # "cpu", "cuda", or "auto"
+
+# Embedding settings
+embedding:
+  model_type: "resnet50"  # "resnet50", "transformer", "efficientnet"
+  embedding_dim: 512
+  input_size: [256, 128]  # [height, width]
+  normalize: true
+  use_pose_features: true
+
+# Re-identification settings
+reid:
+  similarity_threshold: 0.7
+  max_distance: 0.3
+  temporal_window: 30  # frames
+  use_temporal_features: true
+  matching_algorithm: "cosine"  # "cosine", "euclidean", "manhattan"
+
+# Tracking settings
+tracking:
+  max_disappeared: 30  # frames before considering person lost
+  min_track_length: 10  # minimum frames to establish a track
+  prediction_window: 5  # frames to predict future position
+  use_kalman_filter: true
+  kalman_process_noise: 0.01
+  kalman_measurement_noise: 0.1
+
+# Visualization settings
+visualization:
+  show_bbox: true
+  show_id: true
+  show_pose: true
+  show_trajectory: true
+  trajectory_length: 30  # frames to show in trajectory
+  colors:
+    - [255, 0, 0]    # Red
+    - [0, 255, 0]    # Green
+    - [0, 0, 255]    # Blue
+    - [255, 255, 0]  # Yellow
+    - [255, 0, 255]  # Magenta
+    - [0, 255, 255]  # Cyan
+  font_scale: 0.6
+  thickness: 2
+
+# Video processing
+video:
+  output_fps: 30
+  output_codec: "mp4v"
+  output_quality: 95
+  resize_factor: 1.0  # 1.0 = original size, 0.5 = half size
+
+# Performance settings
+performance:
+  batch_size: 4
+  num_workers: 4
+  use_mixed_precision: true
+  memory_efficient: false
+
+# Logging
+logging:
+  level: "INFO"  # "DEBUG", "INFO", "WARNING", "ERROR"
+  save_logs: true
+  log_file: "logs/reid_system.log"
+
+# Output settings
+output:
+  save_video: true
+  save_annotations: true
+  save_embeddings: true
+  output_dir: "data/processed"
+  annotation_format: "json"  # "json", "csv", "txt" 
